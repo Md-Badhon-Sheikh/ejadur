@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Ejadur❤️Azmira</title>
+  <link rel="icon" type="image/png" href="https://i.ibb.co.com/C3H9H39r/481773322-1856802178396913-6692995222815635888-n.jpg" />
+
+
+  <!-- Tailwind CSS -->
+  <script src="https://cdn.tailwindcss.com"></script>
+
+  <!-- jQuery -->
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
+  <!-- Swiper CSS & JS -->
+  <link
+    rel="stylesheet"
+    href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+  />
+  <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+  <style>
+    html { scroll-behavior: smooth; }
+    .gallery-img { transition: transform 0.3s ease; }
+    .gallery-img:hover { transform: scale(1.05); }
+  </style>
+</head>
+<body class="bg-gray-50 text-gray-800">
+
+  <!-- Navbar -->
+  <nav class="bg-white shadow-md fixed top-0 left-0 right-0 z-50">
+    <div class="max-w-7xl mx-auto px-4 py-3 flex justify-between items-center">
+      <h1 class="text-2xl font-bold text-blue-600">Ejadur❤️Azmira</h1>
+      <ul class="hidden md:flex space-x-6">
+        <li><a href="#home" class="hover:text-blue-500">Home</a></li>
+        <li><a href="#hero" class="hover:text-blue-500">Hero</a></li>
+        <li><a href="#gallery" class="hover:text-blue-500">Gallery</a></li>
+        <li><a href="#about" class="hover:text-blue-500">About</a></li>
+        <li><a href="#footer" class="hover:text-blue-500">Contact</a></li>
+      </ul>
+      <button id="menu-btn" class="md:hidden text-2xl">☰</button>
+    </div>
+    <div id="mobile-menu" class="hidden md:hidden bg-white border-t border-gray-200">
+      <ul class="flex flex-col items-center py-4 space-y-3">
+        <li><a href="#home" class="hover:text-blue-500">Home</a></li>
+        <li><a href="#hero" class="hover:text-blue-500">Hero</a></li>
+        <li><a href="#gallery" class="hover:text-blue-500">Gallery</a></li>
+        <li><a href="#about" class="hover:text-blue-500">About</a></li>
+        <li><a href="#footer" class="hover:text-blue-500">Contact</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- Swiper Carousel -->
+  <section id="home" class="pt-20">
+    <div class="swiper mySwiper rounded-xl shadow-lg">
+      <div class="swiper-wrapper">
+        <div class="swiper-slide"><img src="https://i.ibb.co.com/XfdmqmMz/Untitled-design-3.png" class="w-full h-full object-cover" alt=""></div>
+        <div class="swiper-slide"><img src="https://i.ibb.co.com/7xDxWGzh/Untitled-design-4.png" class="w-full h-full object-cover" alt=""></div>
+        <div class="swiper-slide"><img src="https://i.ibb.co.com/cXSMWcbg/Untitled-design-5.png" class="w-full h-full object-cover" alt=""></div>
+      </div>
+      <div class="swiper-pagination"></div>
+      <div class="swiper-button-next"></div>
+      <div class="swiper-button-prev"></div>
+    </div>
+  </section>
+
+  <!-- Hero Section -->
+  <section id="hero" class="py-16 bg-gradient-to-r from-blue-50 to-indigo-100">
+    <div class="max-w-7xl mx-auto px-6 flex flex-col-reverse md:flex-row items-center gap-10">
+      <div class="w-full md:w-1/2 text-center md:text-left">
+        <h2 class="text-4xl md:text-5xl font-bold text-gray-800 mb-4">Capture Every Moment</h2>
+        <p class="text-gray-600 mb-6">
+          Welcome to <strong>Ejadur❤️Azmira’s Gallery</strong> — A place where every photo speaks louder than words.
+          Discover the art of photography, beauty, and creativity.
+        </p>
+        <a href="#gallery" class="inline-block bg-blue-600 text-white px-6 py-3 rounded-lg hover:bg-blue-700">View Gallery</a>
+      </div>
+      <div class="w-full md:w-1/2">
+        <img src="https://i.ibb.co.com/BV2rnDgD/Untitled-design-17.png" alt="Hero Image" class="rounded-2xl shadow-lg w-full object-cover">
+        <!-- <img src="https://i.ibb.co.com/TDDL9L32/Untitled-design-1.png" alt="Hero Image" class="rounded-2xl shadow-lg w-full object-cover"> -->
+      </div>
+    </div>
+  </section>
+
+  <!-- Image Gallery -->
+  <section id="gallery" class="py-12 bg-gray-100">
+    <div class="max-w-7xl mx-auto px-4 text-center">
+      <h2 class="text-3xl font-bold text-gray-700 mb-8">Our Gallery</h2>
+      <div class="grid grid-cols-2 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-5">
+        <img src="https://i.ibb.co.com/Dfp25FJZ/Untitled-design-6.png" class="rounded-lg shadow-md gallery-img" alt="">
+        <img src="https://i.ibb.co.com/SDPW0C1j/Untitled-design-12.png" class="rounded-lg shadow-md gallery-img" alt="">
+        <img src="https://i.ibb.co.com/FZ5j4sV/Untitled-design-11.png" class="rounded-lg shadow-md gallery-img" alt="">
+        <img src="https://i.ibb.co.com/XffyXdTz/Untitled-design-15.png" class="rounded-lg shadow-md gallery-img" alt="">
+        <img src="https://i.ibb.co.com/JWkCgK33/Untitled-design-13.png" class="rounded-lg shadow-md gallery-img" alt="">
+        <img src="https://i.ibb.co.com/CKjCFf87/Untitled-design-14.png" class="rounded-lg shadow-md gallery-img" alt="">
+        <img src="https://i.ibb.co.com/ks79Kyfh/Untitled-design-16.png" class="rounded-lg shadow-md gallery-img" alt="">
+        <img src="https://i.ibb.co.com/mFzhX6L3/Untitled-design-10.png" class="rounded-lg shadow-md gallery-img" alt="">
+      </div>
+    </div>
+  </section>
+
+  <!-- About Us Section -->
+  <section id="about" class="py-16 bg-white">
+    <div class="max-w-6xl mx-auto px-6 flex flex-col md:flex-row items-center gap-8">
+      <img src="https://i.ibb.co.com/d0xYvgZD/Untitled-design-7.png" alt="About Image" class="rounded-xl shadow-lg w-full md:w-1/2">
+      <div class="w-full md:w-1/2 text-center md:text-left">
+        <h3 class="text-3xl font-bold mb-4 text-gray-800">About Us</h3>
+        <p class="text-gray-600 mb-4">
+          <strong>Ejadur❤️Azmira’s Gallery</strong> is built with passion and love for photography. 
+          Our goal is to showcase creative works and moments of life that inspire positivity and connection.
+        </p>
+        <p class="text-gray-600 mb-4">
+          This single-page website is developed using HTML, TailwindCSS, JavaScript, jQuery, and Swiper.js. 
+          Designed and coded by <strong>Badhon</strong> with care for design, responsiveness, and user experience.
+        </p>
+        <a href="#footer" class="inline-block mt-3 bg-blue-600 text-white px-5 py-2 rounded-lg hover:bg-blue-700">Get in Touch</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer id="footer" class="bg-gray-900 text-gray-300 py-8">
+    <div class="max-w-6xl mx-auto px-4 text-center">
+      <p class="text-lg mb-2">© 2025 Ejadur❤️Urmy Gallery | All Rights Reserved</p>
+      <div class="flex justify-center space-x-4">
+        <a href="https://www.facebook.com/azmira.urmy" class="hover:text-white">Facebook</a>
+        <a href="https://www.instagram.com/ejadur.rahman/" class="hover:text-white">Instagram</a>
+        <a href="#" class="hover:text-white">Twitter</a>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Scripts -->
+  <script>
+    // Mobile Menu Toggle
+    $('#menu-btn').on('click', function() {
+      $('#mobile-menu').slideToggle();
+    });
+
+    // Swiper Carousel
+    const swiper = new Swiper(".mySwiper", {
+      loop: true,
+      pagination: {
+        el: ".swiper-pagination",
+        clickable: true,
+      },
+      navigation: {
+        nextEl: ".swiper-button-next",
+        prevEl: ".swiper-button-prev",
+      },
+      autoplay: {
+        delay: 3000,
+        disableOnInteraction: false,
+      },
+    });
+  </script>
+
+</body>
+</html>
